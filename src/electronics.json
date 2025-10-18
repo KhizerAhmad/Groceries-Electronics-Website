@@ -1,0 +1,128 @@
+[
+  {
+    "id": 1,
+    "name": "Wireless Headphones",
+    "price": 89.99,
+    "img": "https://www.enepsters.com/wp-content/uploads/2021/06/nokia-lite-earbuds-bh-205-header-scaled.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Smart Watch",
+    "price": 129.99,
+    "img": "https://th.bing.com/th?id=OIF.BCeDGmLz%2fxwudqzaK1arTA&w=188&h=188&c=7&r=0&o=7&cb=12&pid=1.7&rm=3"
+  },
+  {
+    "id": 3,
+    "name": "Gaming Mouse",
+    "price": 49.99,
+    "img": "https://th.bing.com/th/id/OIP.u6TBmYDCyZ195QngiHPYwgHaHa?w=216&h=216&c=7&r=0&o=7&cb=12&pid=1.7&rm=3"
+  },
+  {
+    "id": 4,
+    "name": "Bluetooth Speaker",
+    "price": 59.99,
+    "img": "https://th.bing.com/th/id/OIP._214_32qIPRYeGzQbABg6QHaHa?w=179&h=180&c=7&r=0&o=7&cb=12&pid=1.7&rm=3"
+  },
+  {
+    "id": 5,
+    "name": "Laptop Stand",
+    "price": 34.99,
+    "img": "https://th.bing.com/th/id/OIP.xrRXqQ3efj3h0QOQ4wNEZgHaHa?w=188&h=188&c=7&r=0&o=7&cb=12&pid=1.7&rm=3"
+  },
+  {
+    "id": 6,
+    "name": "USB-C Hub",
+    "price": 24.99,
+    "img": "data:image/webp;base64,UklGRq4EAABXRUJQVlA4IKIEAAAQHgCdASq+AL8APp1Oo0ylpKMiIzJJCLATiWlu4XSRxo/SDsJ5/fztJp4/si/gDkV3iEAH5h/SfRvmWKnZn/7J+gb6r9hH9aOuB6KH6uitIZeNtRhl421GGXjbUYZeNtRhl421GGXjFM/AQRCBVbffsPF/13yY6q5rUXFQq3oGMHsnjnsGe20+eKFypANzWZGY74Xta5qP8b8XIP05fpLrpyT/PuaG9GfIi9iP8N0FS7SSMYXlIUH+FwfTrPpZkuloZh4xVl/IMfFcosyKd3xFD8MYnnFd7g/9NGKUY9wf6VbDWI4jNtRhl421GGXjbUYZeNtRhl42zIAA/v9OQAAHH4BpL33vRz/yYpsq00+zErDmUx7lC3MHBgWsBC+et4pOkeBqdy+vEGglBlAPyn3z+5KRgkUn3penMEqHgi7ALC4yMS/yco+NZQ+r2NskNnOjnQ9suacB2L6n+zJACWgBqOUOCWMsrQym/AJKz8g1CFRo3WwumXVPBFN36/3Lb71GJ92lg1Gy59kDfuxKi+odSBoKpQO7j7sCjvRMXXMlpB9b6g0H0fgYSJLD18/qoAzf1KqSZ0eCXXUW2hGlCfvu6p5VQJgkSIUV26tbS2dGL5I8jSnl7CMSQg3DyHLiiSE/RPSUCh+wvxImnwyvZ87iUj1oMbHuVyDszWsAj/7Uk3j/dsMuJmpoA8pJwyDcIRk/bR3nD+/KRUYhyzSSE73gXCWGh546SroP4ANFvUcHCfmy5NXGxoakE3T91mr4SnDfi+Pnh4QJkqE1sZ9n3rjurS9Ne7TWUfbXz3KdVlSVXH+3iiBY8S0RX/cvi/3E3NcHagEuzKQMTCCf6gfbEiIbU8uyYytorCziJePgoZXlt7KjtZG8LxjCDuyMVbEjgusv1W+gGvg7XaiJ9IdTEjoRvZOQN5HLzPKCvaSnLw+d8PBppBcwibhvJzHSHen3wfPtTfGB68VuOLH6y/ku8OzQCvNCEY+Hl1GM63EzyIZiF+4qsio2rZ8PYoazjeaT4GwIJ4vEmDA1ejuWHUHZi6OHlys9aVn3CjnrGRnxdsBV7zOKPrshrt1AOwVpI9L2VgLwq80qu9rbsziS03w2t5O49jqCG/bswqdQ5dEuVosC0IY+0iVMSX7biPKsCwOfWSPbjPgkpXog5kDq8yvEiKHAvrP59ZFfHrNlxYnrQmDL2WGCO/d3z8sIt8g/X/6bRmeLyzYTi5dmQJhy2sFRvpwjHheaftmsLEyBP9HxJKy2ELjQfaaSqGzvK7vfgbcZyvWYMUxRT4QxQa2yitKvVIO8sgBQpHmSxVuufwMNBDS7RqIazzkg5CHSlsJX/ocFVx1MugXYnGeiKkKwiHV7euDtB7VzjxLyZCeQ1fWIsy51HJYGz3cy1m0wfPE7UM+SSchBG64rrSwEOzhTDfz4LKJU4Rme2F0js1Xeg3UPzryQgwqIyGUsvwmTKn3+LSPU0y5F55Z09xSIlmQGkLQaXoft79h2RhMD0d9mZElfbfSvVOpc49UQNpi6M+f1xLgOKObF0lrnok48FcLdGw4gk/JpIfGaPziAxtmMY2rnYgAAAAAA"
+  },
+  {
+    "id": 7,
+    "name": "Wireless Keyboard",
+    "price": 69.99,
+    "img": "https://th.bing.com/th/id/OIP.t8uErkrwi6z5py9HDY7MBwHaHa?w=187&h=186&c=7&r=0&o=7&cb=12&pid=1.7&rm=3"
+  },
+  {
+    "id": 8,
+    "name": "External Hard Drive 1TB",
+    "price": 79.99,
+    "img": "https://m.media-amazon.com/images/I/61v46LkFKxL._AC_UY218_.jpg"
+  },
+  {
+    "id": 9,
+    "name": "LED Desk Lamp",
+    "price": 39.99,
+    "img": "https://m.media-amazon.com/images/I/61po0IyEmOL._AC_UL320_.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Mechanical Keyboard",
+    "price": 109.99,
+    "img": "https://m.media-amazon.com/images/I/71Bk2A2WmOL._AC_UY218_.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Organic Apples (1kg)",
+    "price": 4.99,
+    "img": "https://m.media-amazon.com/images/I/51ZcTzUBqeL._AC_UL320_.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Bananas (1 dozen)",
+    "price": 2.49,
+    "img": "https://m.media-amazon.com/images/I/61aLynLf2GL._AC_UL320_.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Whole Milk (1L)",
+    "price": 1.99,
+    "img": "https://m.media-amazon.com/images/I/71ZxJrfIz7L._AC_UL320_.jpg"
+  },
+  {
+    "id": 14,
+    "name": "Brown Bread (1 loaf)",
+    "price": 2.99,
+    "img": "https://m.media-amazon.com/images/I/81tNeQX7bGL._AC_UL320_.jpg"
+  },
+  {
+    "id": 15,
+    "name": "Eggs (12 pcs)",
+    "price": 3.49,
+    "img": "https://m.media-amazon.com/images/I/611+aDtqZ3L._AC_UL320_.jpg"
+  },
+  {
+    "id": 16,
+    "name": "Pasta (500g)",
+    "price": 1.49,
+    "img": "https://m.media-amazon.com/images/I/710aT7fo-7L._AC_UL320_.jpg"
+  },
+  {
+    "id": 17,
+    "name": "Olive Oil (1L)",
+    "price": 8.99,
+    "img": "https://m.media-amazon.com/images/I/61CYOopEpSL._AC_UL320_.jpg"
+  },
+  {
+    "id": 18,
+    "name": "Sugar (1kg)",
+    "price": 2.19,
+    "img": "https://m.media-amazon.com/images/I/81mHK0lfygL._AC_UL320_.jpg"
+  },
+  {
+    "id": 19,
+    "name": "Coffee Beans (500g)",
+    "price": 12.49,
+    "img": "https://m.media-amazon.com/images/I/71NRc4JG7NL._AC_UL320_.jpg"
+  },
+  {
+    "id": 20,
+    "name": "Green Tea (Box)",
+    "price": 5.99,
+    "img": "https://m.media-amazon.com/images/I/71dtKFxEHhL._AC_UL320_.jpg"
+  },
+  {
+    "id": 21,
+    "name": "Green Tea (Box)",
+    "price": 5.99,
+    "img": "https://m.media-amazon.com/images/I/71dtKFxEHhL._AC_UL320_.jpg"
+  }
+]
