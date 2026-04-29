@@ -1,73 +1,105 @@
-# React + TypeScript + Vite
+# Groceries & Electronics Website 🛒
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, fully responsive shopping website built with React and TypeScript. Browse groceries and electronics, manage your cart, and checkout — all with a clean UI and smooth animations.
 
-Currently, two official plugins are available:
+🔗 **Live Demo:** [grocery-shopping-store.vercel.app](https://grocery-shopping-store.vercel.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## What it does
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Browse products across groceries and electronics categories
+- Add items to cart and manage quantities
+- Checkout flow with form validation
+- Smooth animations and a clean, responsive UI that works on all screen sizes
+- Data served via MirageJS — no real backend needed, everything runs in the browser
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## Why I built this
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+Wanted to get hands-on with Redux Toolkit and AsyncThunk in a real-world scenario rather than just tutorials. Using MirageJS to mock an API was a great way to simulate actual async data fetching without spinning up a server.
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+---
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+## Tech Stack
+
+| Technology | Usage |
+|------------|-------|
+| React 19 | UI components and rendering |
+| TypeScript | Type safety throughout |
+| Redux Toolkit | Global state management |
+| AsyncThunk | Async API calls and loading states |
+| MirageJS | Mock REST API (fake backend) |
+| React Router DOM v7 | Client-side routing |
+| React Redux | Connecting Redux store to components |
+| Vite | Build tool and dev server |
+| CSS | Styling and animations |
+
+---
+
+## How to run it locally
+
+```bash
+git clone https://github.com/KhizerAhmad/Groceries-Electronics-Website.git
+cd Groceries-Electronics-Website
+npm install
+npm run dev
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Then open [http://localhost:5173](http://localhost:5173) in your browser.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+---
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+## Project Structure
+
 ```
+Groceries-Electronics-Website/
+│
+├── public/              # Static assets
+├── src/                 # Main source code
+│   ├── components/      # Reusable UI components
+│   ├── pages/           # Route-level pages
+│   ├── store/           # Redux store, slices, thunks
+│   └── mirage/          # MirageJS server setup & mock data
+├── index.html
+├── vite.config.ts
+├── tsconfig.json
+└── package.json
+```
+
+---
+
+## Features at a glance
+
+- **Product browsing** — product listing with category filtering
+- **Cart management** — add, remove, update quantities with live total calculation
+- **Checkout validation** — form fields validated before submission
+- **Mock API** — MirageJS intercepts fetch requests and returns fake data, simulating real backend behavior
+- **Async state handling** — loading, success, and error states managed cleanly with AsyncThunk
+- **Fully responsive** — works on mobile, tablet, and desktop
+
+---
+
+## Available Scripts
+
+```bash
+npm run dev        # Start dev server
+npm run build      # Build for production
+npm run preview    # Preview production build
+npm run lint       # Run ESLint
+```
+
+---
+
+## Screenshot
+
+> *(Add a screenshot here)*
+
+---
+
+## Author
+
+**Khizer Ahmad** — built this to sharpen Redux Toolkit and async data fetching skills in a practical project.
+
+Feel free to explore, fork, or build on top of it.
