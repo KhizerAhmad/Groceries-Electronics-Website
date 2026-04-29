@@ -42,7 +42,7 @@ Wanted to get hands-on with Redux Toolkit and AsyncThunk in a real-world scenari
 
 ```bash
 git clone https://github.com/KhizerAhmad/Groceries-Electronics-Website.git
-cd Groceries-Electronics-Website
+cd Shopping-Basket
 npm install
 npm run dev
 ```
@@ -54,7 +54,7 @@ Then open [http://localhost:5173](http://localhost:5173) in your browser.
 ## Project Structure
 
 ```
-Groceries-Electronics-Website/
+Shopping-Basket/
 │
 ├── public/              # Static assets
 ├── src/                 # Main source code
@@ -94,7 +94,8 @@ npm run lint       # Run ESLint
 
 ## Screenshot
 
-> *(Add a screenshot here)*
+<img width="1891" height="942" alt="image" src="https://github.com/user-attachments/assets/0b9fe972-1519-4985-8a29-628be61101a2" />
+
 
 ---
 
